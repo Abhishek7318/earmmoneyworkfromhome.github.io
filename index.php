@@ -88,6 +88,9 @@ mysqli_close($conn);
 
 ?>
 
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -97,11 +100,12 @@ mysqli_close($conn);
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>PHP login system!</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">workFromhome</a>
+  <a class="navbar-brand" href="#">Php Login System</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -114,7 +118,6 @@ mysqli_close($conn);
         <a class="nav-link" href="register.php">Register</a>
       </li>
       <li class="nav-item">
-       
         <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">

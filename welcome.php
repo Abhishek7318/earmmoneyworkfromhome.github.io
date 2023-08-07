@@ -19,7 +19,16 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
-  
+    <script src="./script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+     h5{
+      text-align: center;
+      color: white;
+      font-size: 26px;
+      padding-top: 10px;
+     }
+     </style>
     <title>PHP login system!</title>
   </head>
   <body>
@@ -68,37 +77,30 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 <div class="container mt-4">
 <h3><?php echo "Welcome ". $_SESSION['username']?>! You can now use this website</h3>
 <hr>
-
-</div>
-
-    
-  <!-- top front section image name -->
-  <header>
+ <!-- top front section image name -->
+ <header>
     <div>
-   <h2>Earn Money</h2>
+   <h5> Earn Money </h3>
    <center>
     <div class="topcheck"> <img class="logo" src="assets/check.png" width="20px" height="20px" alt="verfi"> <p class="joinearn">&nbsp; Share & Earn money</p></div>
     </center>
   </header>
-<center>
+    <center>
       <div class="newuser card">
-      <center>
         <div class="flex">
       <img src="assets/book-open-solid.svg" width="24px" height="24px" alt="read"><p>&nbsp; New user must read</p></div>
-    </center>
-    <center>
+
       <!-- all buttons  -->
-      <div class="bbtn"></div>
+      <center>
        <button class="btn"><a href="intro.html">platform Introduction</a></button>
        <button class="btn"><a href="login.html">Login Tutorial</a></button>
        <br>
        <button class="btn"><a href="https://forms.gle/bdq9sUrSSLoJ1nE26">Join Direct</a></button>
        <button class="btn"> <a href="https://forms.gle/YLyAaf9nkhAPRCeV7">Refer throw join</a></button>
        <button class="btn"> <a href="premium.html"><div class="point"><p>P</p></div> Valid Premium plans </a></button>
-      </div>
+       </center>
       </div>
     </center>
-    
 </div>
 
     <!-- hero section image  -->
@@ -107,7 +109,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
   <center> 
    <button class="shareBtn" id="shareBtn">SHARE & REFER</button>  
   </center>
-  <p class="pra">© 2023-2024, workFromhome.com</p>
+  <center>
+  <img src="assets/offerrefer.png" alt="offer" width="100%">
+  <p class="pra">© 2023-2024, workFromhomw.com</p>
+</center>
  
 
     <!-- Optional JavaScript -->
